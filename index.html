@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- <style>
+      td,
+      th,
+      tr {
+        border: 1px solid black;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- navbar -->
+    <div>
+      <nav>
+        <h1>Portfolio</h1>
+      </nav>
+    </div>
+
+    <!-- section about -->
+
+    <section class="header">
+      <div>
+        <h3><span style="color: red">Hey !</span> I am</h3>
+        <h1 class="my-name">AlmaBetter</h1>
+        <h4>I am <span style="color: yellow">undergradute Student</span></h4>
+      </div>
+    </section>
+
+    <section id="about-me">
+      <div class="aboutme-box">
+        <div style="width: 200px; margin: 0 auto">
+          <img src="img.jpg" altimg height="150" width="100" />
+        </div>
+      </div>
+
+      <div class="aboutme-box">
+        <h2>About Me</h2>
+        <p><strong>Name :</strong> Rahul kumar</p>
+        <p>
+          <strong>College :</strong> Roorkee Institute of Technology , Puhana
+          (Roorkee)
+        </p>
+        <p><strong>Graduation year :</strong> 2023</p>
+        <p>
+          <strong>Email :</strong><a href="gmail.com"> pcrahul702@gmail.com</a>
+        </p>
+        <p><strong>Summary :</strong></p>
+        <p>
+          Final year CSE Undergrad and Software Engineer with an impeccable
+          academic and co-curricular record and a strong interest in Programming
+          in Java, Data Structure, web Development looking for opportunities
+          that would help me grow professionally while being resourceful for the
+          organization.
+        </p>
+      </div>
+    </section>
+    <hr />
+    <!-- section education -->
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>College</th>
+          <th>Courses</th>
+          <th>Percentage / CGPA</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>Roorkee institute of Technology</td>
+          <td>B.tech</td>
+          <td>75.2</td>
+          <td>2019-2023</td>
+        </tr>
+        <tr>
+          <td>Sadar Alam Secondary School</td>
+          <td>12th</td>
+          <td>55%</td>
+          <td>2017-2018</td>
+        </tr>
+        <tr>
+          <td>Rose Mary Land School</td>
+          <td>10th</td>
+          <td>82%</td>
+          <td>2015-2016</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr />
+    <!-- section skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div>
+        <ol class="skills-topic">
+          <li>
+            Language
+            <ol>
+              <li>Java</li>
+              <li>OOPS</li>
+              <li>DSA</li>
+              <li>SQL</li>
+              <li>JavaScript</li>
+            </ol>
+          </li>
+          <li>
+            Development
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>React</li>
+            </ol>
+          </li>
+
+          <li>
+            Tools & Technology
+            <ol>
+              <li>VS Code</li>
+              <li>Postman</li>
+              <li>Git</li>
+            </ol>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- section contact -->
+    <section id="contact">
+      <div id="contact-div">
+        <section class="section-box">
+          <div>
+            <p><strong>Address :</strong> Ekangar Sarai(Nalanda) 801301</p>
+            <p>
+              <strong>Email :</strong>
+              <a href="gmail.com"> pcrahul702@gmail.com</a>
+            </p>
+            <p><strong>Mobile No. :</strong> 8561038330</p>
+          </div>
+          <div>
+            <ul  id="social-platform">
+              <a href="https://www.facebook.com/" class="btn"><li>Facebook</li></a>
+              <a href="https://www.facebook.com/" class="btn"><li>Instagram</li></a>
+              <a href="https://www.facebook.com/" class="btn"><li>Twitter</li></a>
+              <a href="https://www.facebook.com/" class="btn"><li>LinkedIn</li></a>
+            </ul>
+          </div>
+        </section>
+        <section class="section-box">
+          <form action="http://www.example.com" method="get">
+            <fieldset>
+              <legend>Drop a Message:</legend>
+              <div>
+                <label for="name">Name</label>
+                <input type="text" name="fname" size="30" maxlength="100" />
+              </div>
+              <br />
+              <div>
+                <label for="email">Email</label>
+                <input type="Email" name="email" maxlength="100" size="30" />
+              </div>
+              <br />
+              <div>
+                <label for="profession">Select your profesiion ?</label>
+                <br />
+                <br />
+                <select name="reffer" id="profesiion-select">
+                  <option value="google">Student</option>
+                  <option value="developer">Developer</option>
+                  <option value="founder">Client</option>
+                  <option value="java">JAVA developer</option>
+                </select>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <br />
+                <textarea rows="4" cols="40" id="comments"></textarea>
+              </div>
+              <div>
+                would you like to connect again?
+                <br />
+                <label><input type="radio" name="radiobutton" />Yes</label>
+                <label><input type="radio" name="radiobutton" />No</label>
+                <label><input type="radio" name="radiobutton" />Maybe</label>
+              </div>
+              <br />
+              <input type="submit" class="btn" value="Send Message" />
+            </fieldset>
+          </form>
+        </section>
+      </div>
+     
+    </section>
+     <footer>
+        <p>Copyright ©2022 All rights reserved</p>
+     </footer>
+    
+  </body>
+</html>

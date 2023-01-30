@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #100b4994;
+  color: white;
+  margin: 0;
+  padding: 0.5rem, 1rem;
+  position: fixed;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  color: white;
+  background: url("https://img.freepik.com/free-photo/abstract-background-dynamic-pattern-geometric-texture-modern-triangles_181020-3117.jpg?w=740");
+  /* background-color: blue; */
+  height: 40vh;
+  padding: 100px 0rem;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header h4{
+    margin-top: 70px;
+    font-size: 2rem;
+
+}
+.my-name{
+    font-size: 60px;
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+
+#about-me{
+   display: flex;
+   padding: 5rem 10rem;
+}
+#about-me img{
+    height: 350px;
+    width:200;
+    border-radius: 30px;
+    
+}
+#aboutme-box{
+    
+        color: #999;
+        width: 50%;
+        padding: 20px;
+        height: 350px;
+    
+}
+.about-box strong{
+    color: #000;
+}
+#education , #skills{
+    padding: 50px 5%;
+}
+table{
+    width: 100%;
+}
+td , th ,tr{
+    border: 1px solid #000;
+    height: 40px;
+    padding: 0 1rem;
+}
+th{
+    background-color: black;
+    color: white;
+}
+.skills-topic li {
+    color: red;
+}
+.skills-topic li ol li{
+    color: blue;
+}
+#contact{
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 50px;
+}
+#contact-div{
+    display: flex;;
+}
+.section-box{
+    width: 50%;
+}
+form div{
+    margin: 1rem;
+}
+[name="email"],[name="fname"],#profession-select{
+    height:30px;
+    width:350px
+}
+.btn{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    color: #fff;
+}
+#social-platform li{
+    width:  80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: blue;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+  }
+  #social-platform li:hover{
+    background-color: white;
+    color: blue;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-top: 0;
+    padding: 1rem;
+    text-align: center;
+  }
